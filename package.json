@@ -2,8 +2,8 @@
   "name": "n-is-nan",
   "version": "1.0.0",
   "description": "check if input is NaN",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "https://github.com/nivrith/n-is-nan",
   "author": "Nivrith <nivrithgomatam@gmail.com>",
   "license": "MIT",
@@ -40,7 +40,7 @@
     "check-coverage": true
   },
   "files": [
-    "dist/src/**/*"
+    "dist/**/*"
   ],
   "dependencies": {},
   "engines": {
