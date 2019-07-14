@@ -1,6 +1,7 @@
 import {
   nIsNan
 } from './../src/index';
+
 import {
   expect
 } from 'chai';
@@ -18,6 +19,11 @@ describe('nIsNan', () => {
   it('Returns false for `25`', () => {
     expect(nIsNan(true)).to.be.false;
   });
+
+  it('Returns false for `starwars`', () => {
+    expect(nIsNan('starwars')).to.be.false;
+  });
+
 
   it('Returns false for `null`', () => {
     expect(nIsNan(null)).to.be.false;

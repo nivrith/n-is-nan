@@ -19,7 +19,8 @@ check if input is NaN
 
   import nIsNan from 'n-is-nan';
 
-  nIsNan(); // hello universe
+  nIsNan(NaN); // true
+  nIsNan("starwars"); // false
 
 ```
 
